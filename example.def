@@ -3,6 +3,6 @@ from: pytorch/pytorch:2.2.1-cuda12.1-cudnn8-runtime
 
 
 %post
-conda install pandas pyyaml matplotlib scikit-learn
+conda install pandas pyyaml matplotlib scikit-learn json
 pip3 install wandb
 pip3 install kornia
